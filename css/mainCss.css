@@ -14,6 +14,7 @@ div {
     text-align:center;
     float:left;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 #topBar {
@@ -25,6 +26,7 @@ div {
     height:60px;
     text-align:center;
     margin-top: 0px;
+    padding-bottom: 0px;
 }
 
 #icon {
