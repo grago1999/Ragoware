@@ -1,0 +1,108 @@
+html {
+    width: 100%;    
+}
+
+body {
+    margin-top: 60px;
+    background-color:rgba(37, 134, 254, 1.0);
+    margin: 0px;
+    width: 100%;
+}
+
+div {
+    height:75%;
+    width:100%;
+    text-align:center;
+    float:left;
+    margin: 0 auto;
+}
+
+#topBar {
+    background-color:rgba(37, 134, 254, 1.0);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:60px;
+    text-align:center;
+    margin-top: 0px;
+}
+
+#icon {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:200px;
+    height:200px;
+    opacity:1.0;
+    border-radius:20px;
+    margin: 0 auto;
+}
+
+#gemini {
+    background-color:rgba(83, 159, 254, 1.0);
+    margin-top: 60px;
+}
+
+#sharePal {
+    background-color:rgba(103, 193, 95, 1.0);
+}
+
+#heliHavoc {
+    background-color:rgba(83, 159, 254, 1.0);
+}
+
+#conjungo {
+    background-color: black;
+}
+
+#contact {
+    background-color:rgba(37, 134, 254, 1.0);
+    height:25%;
+    width:100%;
+    left:0;
+    text-align:center;
+    float:left;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+    color:white;
+    margin:auto;
+    line-height:60px;
+    vertical-align:middle;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+    color:white;
+    line-height:60px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:26px;
+    color:white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:26px;
+    color:white;
+}
