@@ -86,7 +86,7 @@ h2 {
 	font-variant:normal;
 	font-weight:500;
     color:white;
-    line-height:60px;
+    line-height:200%;
 }
 
 a, p {
@@ -97,6 +97,8 @@ a, p {
 	font-weight:500;
 	line-height:26px;
     color:white;
+    text-decoration: none;
+    line-height:200%;
 }
 
 @media screen and (orientation:portrait) {
@@ -106,10 +108,15 @@ a, p {
     
     h1 {
         font-size: 100px;
+        text-align: center;
     }
     
     h2 {
         font-size: 75;
+    }
+    
+    #gemini {
+        margin-top: 200px;   
     }
     
     #icon {
@@ -118,6 +125,6 @@ a, p {
     }
     
     a, p {
-        font-size: 40px;
+        font-size: 50px;
     }
 }
