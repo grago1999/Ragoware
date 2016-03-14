@@ -99,21 +99,23 @@ a, p {
     color:white;
     text-decoration: none;
     line-height:200%;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 @media screen and (orientation:portrait) {
     #topBar {
-        height: 200px;
+        height: 180px;
     }
     
     h1 {
         font-size: 100px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 50px;
     }
     
     h2 {
-        font-size: 75;
+        font-size: 85px;
     }
     
     #gemini {
