@@ -120,6 +120,11 @@ a, p {
     
     h3 {
         font-size: 70px;
+        padding: 0px;
+    }
+    
+    a {
+        margin-bottom: 30px;
     }
     
     #gemini {
@@ -133,9 +138,5 @@ a, p {
     
     a, p {
         font-size: 50px;
-    }
-
-    #contact {
-        padding-bottom: 30px;
     }
 }
