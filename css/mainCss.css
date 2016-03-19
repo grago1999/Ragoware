@@ -17,6 +17,12 @@ div {
     padding-bottom: 50px;
 }
 
+img {
+    -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+}
+
 #topBar {
     background-color: rgba(37, 134, 254, 1.0);
     position: fixed;
@@ -41,12 +47,12 @@ div {
 }
 
 #gemini {
-    background-color:rgba(83, 159, 254, 1.0);
+    background-color:rgba(53, 110, 251, 1.0);
     margin-top: 60px;
 }
 
 #sharePal {
-    background-color:rgba(103, 193, 95, 1.0);
+    background-color:rgba(66, 180, 55, 1.0);
 }
 
 #heliHavoc {
