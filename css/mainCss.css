@@ -4,7 +4,6 @@ html {
 
 body {
     margin-top: 60px;
-    background-color:rgba(37, 134, 254, 1.0);
     margin: 0px;
     width: 100%;
 }
@@ -17,13 +16,19 @@ div {
     padding-bottom: 50px;
 }
 
-img {
-    -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+h1 {
+    font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+    color:white;
+    margin:auto;
+    line-height:60px;
+    vertical-align:middle;
 }
 
-#topBar {
+.topBar {
     background-color: rgba(37, 134, 254, 1.0);
     position: fixed;
     top: 0;
@@ -35,54 +40,21 @@ img {
     padding-bottom: 0px;
 }
 
-#icon {
-    display:flex;
+img {
     justify-content:center;
     align-items:center;
-    width:200px;
-    height:200px;
     opacity:1.0;
     border-radius:20px;
     margin: 0 auto;
+    -webkit-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 21px -4px rgba(0, 0, 0, 0.75);
 }
 
-#gemini {
-    background-color:rgba(53, 110, 251, 1.0);
-    margin-top: 60px;
-}
-
-#sharePal {
-    background-color:rgba(66, 180, 55, 1.0);
-}
-
-#heliHavoc {
-    background-color:rgba(83, 159, 254, 1.0);
-}
-
-#conjungo {
-    background-color: black;
-}
-
-#contact {
-    background-color:rgba(37, 134, 254, 1.0);
-    height:25%;
-    width:100%;
-    left:0;
-    text-align:center;
-    float:left;
-    padding-bottom: 0px;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-	font-size:40px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:500;
-    color:white;
-    margin:auto;
-    line-height:60px;
-    vertical-align:middle;
+.icon {
+    width:200px;
+    height:200px;
+    display:flex;
 }
 
 h2, h3 {
@@ -105,12 +77,35 @@ a, p {
     color:white;
     text-decoration: none;
     line-height:200%;
-    margin-left: 80px;
-    margin-right: 80px;
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.space {
+    height: 30px;
+}
+
+.gemini {
+    background-color:rgba(53, 110, 251, 1.0);
+}
+
+.sharePal {
+    background-color:rgba(66, 180, 55, 1.0);
+}
+
+.heliHavoc {
+    background-color:rgba(83, 159, 254, 1.0);
+}
+
+.conjungo {
+    background-color: black;
 }
 
 @media screen and (orientation:portrait) {
-    #topBar {
+    .topBar, .space {
         height: 180px;
     }
     
@@ -128,10 +123,6 @@ a, p {
         font-size: 70px;
     }
     
-    #gemini {
-        margin-top: 180px;   
-    }
-    
     #icon {
         width: 400px;
         height: 400px;
@@ -139,5 +130,14 @@ a, p {
     
     a, p {
         font-size: 50px;
+    }
+    
+    p {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .gemini {
+        margin-top: 80px;   
     }
 }
