@@ -83,9 +83,10 @@ a:hover:before {
 
 .nav {
     background-color: white;
+    display: block;
     height: 70px;
     top: 0px;
-    z-index: 2;
+    z-index: 10;
 }
 
 .bottom, .navBtn {
@@ -95,6 +96,7 @@ a:hover:before {
 
 .bottom {
     padding: 20px;
+    padding-top: 0px;
 }
 
 .navBtn {
@@ -109,7 +111,18 @@ a:hover:before {
     margin-left: 34px;
 }
 
+.space {
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: left;
+}
+
 @media screen and (orientation:portrait) {
+
+    body {
+        overflow-y: auto;
+    }
 
     h1, h2, h3, h4, h5, h6, p {
         font-size: 40px;
