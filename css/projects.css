@@ -52,8 +52,10 @@ h6 {
     }
 
     .projects {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        left: 12.5%;
+        top: 50%;
+        transform: translateY(-45%);
+        width: 75%;
     }
 
     .project {

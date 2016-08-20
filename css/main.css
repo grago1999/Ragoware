@@ -83,7 +83,7 @@ a:hover:before {
 
 .nav {
     background-color: white;
-    height: 50px;
+    height: 70px;
     top: 0px;
     z-index: 2;
 }
@@ -121,6 +121,7 @@ a:hover:before {
 
     .title {
         width: 150%;
+        transform: translateY(-50%);
     }
 
     .navBtn {
