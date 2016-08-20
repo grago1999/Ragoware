@@ -119,9 +119,9 @@ a:hover:before {
         font-size: 80px;
     }
 
-    .title {
+    .title, .info {
         width: 150%;
-        transform: translate(-37.5%, -50%);
+        transform: translate(-22.5%, -50%);
     }
 
     .navBtn {
