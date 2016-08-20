@@ -52,7 +52,8 @@ h6 {
     }
 
     .projects {
-        overflow-y: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .project {

@@ -119,6 +119,10 @@ a:hover:before {
         font-size: 80px;
     }
 
+    .title {
+        width: 150%;
+    }
+
     .navBtn {
         margin-left: 40px;
         margin-top: 40px;
@@ -126,6 +130,10 @@ a:hover:before {
 
     .navBtnFirst {
         margin-left: 42px;
+    }
+
+    a:before {
+        height: 5px;
     }
 
 }
