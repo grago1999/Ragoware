@@ -121,7 +121,7 @@ a:hover:before {
 
     .title, .info {
         width: 150%;
-        transform: translate(-22.5%, -50%);
+        transform: translate(-20%, -50%);
     }
 
     .navBtn {
