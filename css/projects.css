@@ -1,0 +1,47 @@
+.title {
+    position: absolute;
+    top: 40%;
+}
+
+.projects {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    height: 70%;
+    text-align: center;
+}
+
+.project {
+    background-color: white;
+    width: 42%;
+    margin: 4%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    padding: 15px;
+}
+
+.topic {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+}
+
+h1 > a:before {
+    height: 4px;
+    border-radius: 2px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    margin-top: 10px;
+    font-size: 18px;
+    min-height: 40px;
+    max-height: 100px;
+}
