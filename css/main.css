@@ -103,8 +103,13 @@ a:hover:before {
 
 @media screen and (orientation:portrait) {
 
+    body {
+
+        overflow: scroll;
+    }
+
     h1, h2, h3, h4, h5, h6, p {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h1 {
