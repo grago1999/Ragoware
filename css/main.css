@@ -84,7 +84,7 @@ a:hover:before {
 .nav {
     background-color: white;
     display: block;
-    height: 70px;
+    height: 62px;
     top: 0px;
     z-index: 10;
 }
@@ -113,7 +113,7 @@ a:hover:before {
 
 .space {
     width: 100%;
-    height: 50px;
+    height: 80px;
     display: block;
     float: left;
 }
@@ -144,6 +144,10 @@ a:hover:before {
 
     .navBtnFirst {
         margin-left: 42px;
+    }
+
+    .bottom {
+        padding-bottom: 20px;
     }
 
     a:before {
