@@ -1,13 +1,7 @@
-.title {
-    position: absolute;
-    top: 40%;
-}
-
 .projects {
-    position: absolute;
+    display: block;
+    margin-top: 7.5%;
     left: 20%;
-    top: 50%;
-    transform: translateY(-50%);
     width: 60%;
     text-align: center;
 }
@@ -53,7 +47,6 @@ h6 {
 
     .projects {
         left: 12.5%;
-        top: 52.5%;
         width: 75%;
     }
 
