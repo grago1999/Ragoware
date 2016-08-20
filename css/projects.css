@@ -45,3 +45,11 @@ h6 {
     min-height: 40px;
     max-height: 100px;
 }
+
+@media screen and (orientation:portrait) {
+
+    .project {
+        width: 92%
+    }
+
+}
