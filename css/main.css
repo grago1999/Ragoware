@@ -101,6 +101,10 @@ a:hover:before {
     display: inline-block;
 }
 
+.navBtnFirst {
+    margin-left: 34px;
+}
+
 @media screen and (orientation:portrait) {
 
     body {
@@ -114,6 +118,15 @@ a:hover:before {
 
     h1 {
         font-size: 80px;
+    }
+
+    .navBtn {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .navBtnFirst {
+        margin-left: 42px;
     }
 
     .bottom {
