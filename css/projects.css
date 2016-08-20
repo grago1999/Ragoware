@@ -24,8 +24,8 @@
 }
 
 .topic {
-    font-size: 60px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
     display: block;
     width: 100%;
 }
@@ -47,6 +47,14 @@ h6 {
 }
 
 @media screen and (orientation:portrait) {
+
+    .topic {
+        font-size: 60px;
+    }
+
+    .projects {
+        overflow-y: hidden;
+    }
 
     .project {
         width: 92%
