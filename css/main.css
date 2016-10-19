@@ -157,6 +157,10 @@ a:hover:before {
         font-size: 80px;
     }
 
+    p {
+        line-height: 150%;
+    }
+
     .title, .info {
         width: 150%;
         transform: translate(-23.5%, -50%);
@@ -181,6 +185,10 @@ a:hover:before {
 
     a:before {
         height: 5px;
+    }
+
+    .mSpace {
+        height: 100px;
     }
 
 }
