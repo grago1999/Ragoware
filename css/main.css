@@ -162,6 +162,10 @@ a:hover:before {
         transform: translate(-23.5%, -50%);
     }
 
+    .nav {
+        height: 100px;
+    }
+
     .navBtn {
         margin-left: 40px;
         margin-top: 40px;
