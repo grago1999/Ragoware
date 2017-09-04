@@ -163,7 +163,11 @@ a:hover:before {
 
     .title, .info {
         width: 150%;
-        transform: translate(-23.5%, -50%);
+        transform: translate(-20%, -50%);
+    }
+
+    .about {
+        transform: translate(-17%, -50%);
     }
 
     .nav {
